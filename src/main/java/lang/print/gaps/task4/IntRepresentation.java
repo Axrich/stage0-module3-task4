@@ -2,19 +2,9 @@ package lang.print.gaps.task4;
 
 public class IntRepresentation {
     public static void main(String[] args) {
-        char c = 'c';
-        char h = 'h';
-        char a = 'a';
-        char r = 'r';
-
-        int intC = (int) c;
-        int intH = (int) h;
-        int intA = (int) a;
-        int intR = (int) r;
-
-        System.out.println("Integer representation of 'c': " + intC);
-        System.out.println("Integer representation of 'h': " + intH);
-        System.out.println("Integer representation of 'a': " + intA);
-        System.out.println("Integer representation of 'r': " + intR);
+       System.out.println((char) 99);
+        System.out.println((char) 104);
+        System.out.println((char) 97);
+        System.out.println((char) 114);
     }
 }
