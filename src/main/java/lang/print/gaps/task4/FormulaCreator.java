@@ -2,14 +2,8 @@ package lang.print.gaps.task4;
 
 public class FormulaCreator {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
-        int c = 3;
-        int d = 2;
-        int e = 7;
-
-        int result = a + b * c - d / e;
-
-        System.out.println("The result of the formula is: " + result);
+        int a = 5, b = 2;
+        int result = (9*a*a + 5*b + 2 + a - 7)*((a+b - 4*a*b) / 2);
+        System.out.println(result);
     }
 }
